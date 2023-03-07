@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;700&family=League+Spartan:wght@400;500;600;700;800&family=Montserrat&family=Open+Sans&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+    <title>Projeto Jogo da Velha</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2 id="title-game">JOGO DA VELHA</h2>
+    </header>
+    <div class="section-form-players">
+      <h4 id="title-players">Seleção de Jogadores</h4>
+      <form class="form-players">
+        <label for="name-player1">Jogador 1:</label>
+        <input type="text" name="name-player1" id="name-player1" class="name-players" />
+        <label for="name-player2">Jogador 2:</label>
+        <input type="text" name="name-player2" id="name-player2" class="name-players" />
+        <button type="submit" id="confirm-players">ENVIAR</button>
+      </form>
+      <p id="rules">
+        O objetivo desse jogo é preencher as linhas diagonais ou as horizontais ou as verticais com
+        um mesmo símbolo (X ou O) e impedir que seu adversário faço isso primeiro que você!
+      </p>
+      <button id="reset-button">RESTART</button>
+    </div>
+    <div class="selected-player">
+      <label for="player-turn">Turno do Jogador:</label>
+      <input type="text" name="player-turn" id="player-turn" value="" disabled />
+    </div>
+    <div class="board">
+      <button class="space-board" data-value="00">⠀⠀⠀⠀</button>
+      <button class="space-board" data-value="01">⠀⠀⠀⠀</button>
+      <button class="space-board" data-value="02">⠀⠀⠀⠀</button>
+      <button class="space-board" data-value="10">⠀⠀⠀⠀</button>
+      <button class="space-board" data-value="11">⠀⠀⠀⠀</button>
+      <button class="space-board" data-value="12">⠀⠀⠀⠀</button>
+      <button class="space-board" data-value="20">⠀⠀⠀⠀</button>
+      <button class="space-board" data-value="21">⠀⠀⠀⠀</button>
+      <button class="space-board" data-value="22">⠀⠀⠀⠀</button>
+    </div>
+  </body>
+  <script src="./jogoVelha.js"></script>
+</html>

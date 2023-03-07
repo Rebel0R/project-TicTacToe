@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333131;
+}
+
+.header {
+  margin-top: 28px;
+}
+
+#title-game {
+  text-align: center;
+  color: #2758d3;
+  font-family: "League Spartan";
+  font-size: 45px;
+}
+
+.section-form-players {
+  margin-top: 8px;
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title-players {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #e2e9f1;
+  padding-bottom: 8px;
+}
+
+.form-players {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#rules {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-top: 5px;
+  width: 500px;
+  color: #e2e9f1;
+  display: none;
+}
+
+.form-players label {
+  color: #e2e9f1;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.name-players {
+  width: 180px;
+  height: 30px;
+  color: #e2e9f1;
+  background-color: transparent;
+  margin: 10px 0px 10px 0px;
+  border: 3px solid #6c9af0;
+  border-radius: 10px;
+  padding-left: 8px;
+}
+
+#reset-button {
+  font-family: "Roboto";
+  color: #e2e9f1;
+  font-weight: 500;
+  width: 70px;
+  height: 30px;
+  background-color: #333db4;
+  border-color: transparent;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  display: none;
+}
+
+#confirm-players {
+  font-family: "Roboto";
+  color: #e2e9f1;
+  font-weight: 500;
+  width: 70px;
+  height: 30px;
+  background-color: #333db4;
+  border-color: transparent;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.selected-player {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.selected-player label {
+  color: #e2e9f1;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#player-turn {
+  width: 180px;
+  height: 30px;
+  color: #6c9af0;
+  font-family: "Roboto";
+  font-weight: 500;
+  background-color: #e2e9f1(43, 43, 43);
+  padding-left: 5px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 10px;
+  text-align: center;
+}
+.board {
+  margin: 0px auto 40px auto;
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 400px;
+}
+
+.board button:hover {
+  background-color: #6c9af0;
+  transition: 0.2s;
+}
+.space-board {
+  margin: 0px;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: #333db4;
+  color: #e2e9f1;
+  font-size: 60px;
+  border-color: transparent;
+}
