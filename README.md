@@ -10,7 +10,7 @@ O objetivo do projeto é simular um jogo Tic-Tac-Toe simples, também chamado de
 Acesse o link: [ProjectTicTacToe]('https://rebel0r.github.io/project-TicTacToe/') e se divirta com algum amigo, esse game é perfeito para matar o tédio.
 
 Insira o nome dos dois jogadores e pressione o botão "Enviar".
-![Tela Inicial](./imagens/para/InicialScreen-readme.jpg)
+![Tela Inicial](./imagens/InicialScreen-readme.jpg)
 
 
 ## Desenvolvedor 👨‍🎤
